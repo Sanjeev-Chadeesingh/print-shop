@@ -5,9 +5,27 @@ ICONS
     <i class="fas fa-envelope"></i>
     <i class="fas fa-briefcase"></i>
     <i class="fas fa-paw"></i>
-    <i class="fas fa-vihara"></i>
     <i class="fas fa-user"></i> 
+    <i class="fas fa-building"></i>
 */
+* {
+  margin: 0;
+  padding: 0; }
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "IM Fell DW Pica", serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #2f3542, #a4b0be); }
+
 /*
 FONTS
 font-family: 'IM Fell DW Pica', serif;
@@ -15,3 +33,37 @@ font-family: 'IM Fell DW Pica SC', serif;
 font-family: 'IM Fell English', serif;
 font-family: 'Special Elite', cursive;
 */
+.main-heading {
+  font-size: 5rem;
+  word-spacing: .5rem; }
+
+*:link {
+  font-family: "Special Elite", cursive; }
+
+.navigation__list {
+  display: flex;
+  justify-content: space-evenly; }
+  .navigation__list--link {
+    text-decoration: none;
+    list-style: none;
+    text-transform: lowercase;
+    color: #000;
+    font-size: 3rem; }
+
+.container {
+  width: 90%;
+  margin: 5rem auto;
+  background-color: #f1f2f6;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.9); }
+
+.header {
+  background-image: linear-gradient(to right bottom, #57606f, #a4b0be);
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo--icon {
+    font-size: 7rem; }
+
+.navigation {
+  background-color: #57606f; }

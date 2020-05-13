@@ -1,0 +1,11 @@
+.header {
+    background-image: linear-gradient(to right bottom, $primary-color-medium, $primary-color-light);
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__logo--icon {
+        font-size: 7rem;
+    }
+}
