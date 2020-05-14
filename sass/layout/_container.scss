@@ -3,4 +3,12 @@
     margin: 5rem auto;
     background-color: $primary-color-xlight;
     box-shadow: $shadow-dark;
+    @include respond(tab-land) {
+        margin: 0;
+        width: 100%;
+    }
+    @include respond(tab-port) {
+        margin: 0;
+        width: 100%;
+    }
 }
