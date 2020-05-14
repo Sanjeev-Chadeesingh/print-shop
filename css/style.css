@@ -97,11 +97,10 @@ font-family: 'Special Elite', cursive;
       .content .section-about {
         flex-direction: column; } }
     .content .section-about .about__imageBox--image {
-      background-image: linear-gradient(to right, red, green), url(../../img/headerHome.jpg);
+      background-image: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.7)), url(../../img/headerHome.jpg);
       background-size: cover;
       height: 60rem;
-      width: 70rem;
-      background-blend-mode: overlay; }
+      width: 70rem; }
       @media only screen and (max-width: 56.25em) {
         .content .section-about .about__imageBox--image {
           height: 50rem;
@@ -149,11 +148,10 @@ font-family: 'Special Elite', cursive;
         justify-content: center;
         align-items: center; } }
     .content .section-showcase .showcase__animal--image {
-      background-image: linear-gradient(to right, green, brown), url(../../img/headerAnimal.jpg);
+      background-image: linear-gradient(to right, rgba(0, 128, 0, 0.7), rgba(165, 42, 42, 0.7)), url(../../img/headerAnimal.jpg);
       background-size: cover;
       height: 50rem;
-      width: 60rem;
-      background-blend-mode: overlay; }
+      width: 60rem; }
       @media only screen and (max-width: 56.25em) {
         .content .section-showcase .showcase__animal--image {
           height: 40rem;
