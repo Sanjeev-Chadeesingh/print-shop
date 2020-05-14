@@ -10,7 +10,7 @@
     <title>the print-Shop</title>
 </head>
 <body>
-   <div class="container">
+   <div class="container" id="home">
        <header class="header">
             <div class="header__logo--box">
                 <i class="fas fa-camera header__logo--icon"></i>
@@ -23,9 +23,9 @@
        </header>
        <nav class="navigation">
            <ul class="navigation__list">
-                <a href="index.html" class="navigation__list--link"><li class="navigation__list-item"><i class="fas fa-home"></i>Home</li></a>
-               <a href="animals.html" class="navigation__list--link"><li class="navigation__list-item"><i class="fas fa-paw"></i>Animals</li></a>
-               <a href="structures.html" class="navigation__list--link"><li class="navigation__list-item"><i class="fas fa-building"></i>Structures</li></a>
+                <a href="#home" class="navigation__list--link"><li class="navigation__list-item"><i class="fas fa-home"></i>Home</li></a>
+               <a href="#animals" class="navigation__list--link"><li class="navigation__list-item"><i class="fas fa-paw"></i>Animals</li></a>
+               <a href="#structures" class="navigation__list--link"><li class="navigation__list-item"><i class="fas fa-building"></i>Structures</li></a>
            </ul>
        </nav>
        <main class="content">
@@ -34,11 +34,16 @@
                 <div class="about__imageBox--image">&nbsp;</div>
             </div>
             <div class="about__copyBox">
-                <h2 class="about__copyBox--header">
+                <h2 class="sub-heading">
                     Do you want a one of a kind, media blended photo-painting?
                 </h2>
                 <p class="about__copyBox--copy">This image was created by our print-Shop founder. It was sourced from a handmade, 3 foot by 3 foot negative and a custom made, large format camera. The image was exposed on a hand-cut, 12 foot by 10 foot piece of photo-paper. Finally, a color gradient was added with oil paints, directly onto the photograph. Each piece we offer undergoes the same process, which takes upwards of two weeks to finish. All images are captured by in-house print-Shop artists. All prints are ten feet tall at minimum. Please browse to see available inventory.</p>
             </div>
+           </section>
+           <section class="showcaseHeader">
+               <h1 class="big-heading">
+                   Our Newest Pieces
+               </h1>
            </section>
            <section class="section-showcase">
                <div class="showcase__animal">
@@ -49,7 +54,7 @@
                        </p>
                    </div>
                </div>
-               <div class="structure">
+               <div class="showcase__structure">
                 <div class="showcase__structure--image">
                     &nbsp;
                 </div>
@@ -60,6 +65,36 @@
                 </div>
             </div>
            </section>
+           <section class="showcaseHeader" id="animals">
+            <h1 class="big-heading">
+                animal prints: $5,500
+            </h1>
+        </section>
+           <section class="section-pieces">
+            <div class="animal__box">
+                <div class="animal__box--image animal__box--image1">&nbsp;</div>
+                <div class="animal__box--image animal__box--image2">&nbsp;</div>
+                <div class="animal__box--image animal__box--image3">&nbsp;</div>
+                <div class="animal__box--image animal__box--image4">&nbsp;</div>
+                <div class="animal__box--image animal__box--image5">&nbsp;</div>
+                <div class="animal__box--image animal__box--image6">&nbsp;</div>
+            </div>
+        </section>
+        <section class="showcaseHeader" id="structures">
+            <h1 class="big-heading">
+                structural prints: $5,500
+            </h1>
+        </section>
+           <section class="section-pieces">
+            <div class="structure__box">
+                <div class="structure__box--image structure__box--image1">&nbsp;</div>
+                <div class="structure__box--image structure__box--image2">&nbsp;</div>
+                <div class="structure__box--image structure__box--image3">&nbsp;</div>
+                <div class="structure__box--image structure__box--image4">&nbsp;</div>
+                <div class="structure__box--image structure__box--image5">&nbsp;</div>
+                <div class="structure__box--image structure__box--image6">&nbsp;</div>
+            </div>
+        </section>
        </main>
    </div>
 </body>

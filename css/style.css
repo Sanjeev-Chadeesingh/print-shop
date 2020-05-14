@@ -40,6 +40,18 @@ font-family: 'Special Elite', cursive;
 *:link {
   font-family: "Special Elite", cursive; }
 
+.big-heading {
+  font-size: 4.5rem;
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  margin-top: 8rem;
+  border-bottom: 0.5rem solid #2f3542; }
+
+.sub-heading {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Special Elite", cursive; }
+
 .navigation__list {
   display: flex;
   justify-content: space-evenly; }
@@ -79,10 +91,6 @@ font-family: 'Special Elite', cursive;
         padding: 1.75rem;
         font-size: 1.7rem;
         word-spacing: .25rem; }
-      .content .section-about .about__copyBox--header {
-        font-size: 2rem;
-        text-align: center;
-        font-family: "Special Elite", cursive; }
   .content .section-showcase {
     margin: 2rem auto;
     display: flex;
@@ -107,6 +115,50 @@ font-family: 'Special Elite', cursive;
       font-size: 2.5rem;
       text-align: center;
       font-family: "Special Elite", cursive; }
+  .content .section-pieces .animal__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .content .section-pieces .animal__box--image {
+      background-size: cover;
+      background-blend-mode: overlay;
+      width: 50rem;
+      height: 60rem;
+      margin: 2rem; }
+    .content .section-pieces .animal__box--image1 {
+      background-image: linear-gradient(to right, orange, purple), url(../../img/animal-1.jpg); }
+    .content .section-pieces .animal__box--image2 {
+      background-image: linear-gradient(to right, purple, yellow), url(../../img/animal-2.jpg); }
+    .content .section-pieces .animal__box--image3 {
+      background-image: linear-gradient(to right, purple, blue), url(../../img/animal-3.jpg); }
+    .content .section-pieces .animal__box--image4 {
+      background-image: linear-gradient(to right, yellow, pink), url(../../img/animal-4.jpg); }
+    .content .section-pieces .animal__box--image5 {
+      background-image: linear-gradient(to right, green, red), url(../../img/animal-5.jpg); }
+    .content .section-pieces .animal__box--image6 {
+      background-image: linear-gradient(to right, red, yellow), url(../../img/animal-6.jpg); }
+  .content .section-pieces .structure__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .content .section-pieces .structure__box--image {
+      background-size: cover;
+      background-blend-mode: overlay;
+      width: 50rem;
+      height: 60rem;
+      margin: 2rem; }
+    .content .section-pieces .structure__box--image1 {
+      background-image: linear-gradient(to right, orange, purple), url(../../img/structure-1.jpg); }
+    .content .section-pieces .structure__box--image2 {
+      background-image: linear-gradient(to right, purple, yellow), url(../../img/structure-2.jpg); }
+    .content .section-pieces .structure__box--image3 {
+      background-image: linear-gradient(to right, purple, orangered), url(../../img/structure-3.jpg); }
+    .content .section-pieces .structure__box--image4 {
+      background-image: linear-gradient(to right, yellow, pink), url(../../img/structure-4.jpg); }
+    .content .section-pieces .structure__box--image5 {
+      background-image: linear-gradient(to right, green, red), url(../../img/structure-5.jpg); }
+    .content .section-pieces .structure__box--image6 {
+      background-image: linear-gradient(to right, red, yellow), url(../../img/structure-6.jpg); }
 
 .header {
   background-image: linear-gradient(to bottom, #57606f, #2f3542);
