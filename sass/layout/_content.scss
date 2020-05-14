@@ -64,9 +64,13 @@
         justify-content: space-between;
         @include respond(phone) {
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         @include respond(xphone) {
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         .showcase__animal {
@@ -80,10 +84,7 @@
                     height: 40rem;
                     width: 50rem;
                 }
-                @include respond(phone) {
-                    height: 20rem;
-                    width: 30rem;
-                }
+              
                 @include respond(xphone) {
                     height: 25rem;
                     width: 36rem;
@@ -109,10 +110,7 @@
                     height: 40rem;
                     width: 50rem;
                 }
-                @include respond(phone) {
-                    height: 20rem;
-                    width: 30rem;
-                }
+           
                 @include respond(xphone) {
                     height: 25rem;
                     width: 36rem;
