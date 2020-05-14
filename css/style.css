@@ -138,6 +138,9 @@ font-family: 'Special Elite', cursive;
     margin: 2rem auto;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 37.5em) {
+      .content .section-showcase {
+        flex-direction: column; } }
     @media only screen and (max-width: 25em) {
       .content .section-showcase {
         flex-direction: column; } }
