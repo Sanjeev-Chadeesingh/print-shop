@@ -6,7 +6,7 @@
         @include respond(phone) {
             justify-content: space-around;
         }
-        @include respond(phone) {
+        @include respond(xphone) {
             justify-content: space-around;
         }
         &--link {
