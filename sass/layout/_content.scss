@@ -14,7 +14,7 @@
         .about__imageBox {
 
             &--image {
-            background-image: linear-gradient(to right, rgba(255, 0, 0, 0.7), rgba(0, 128, 0, 0.7)), url(../../img/headerHome.jpg);
+            background-image: url(../../img/headerHome.jpg);
             background-size: cover;
             height: 60rem;
             width: 70rem;
@@ -75,7 +75,7 @@
         .showcase__animal {
 
             &--image {
-                background-image: linear-gradient(to right, rgba(0, 128, 0, 0.7), rgba(165, 42, 42, 0.7)), url(../../img/headerAnimal.jpg);
+                background-image: url(../../img/headerAnimal.jpg);
                 background-size: cover;
                 height: 50rem;
                 width: 60rem;
@@ -100,7 +100,7 @@
         .showcase__structure {
 
             &--image {
-                background-image: linear-gradient(to top, purple, yellow), url(../../img/headerStructure.jpg);
+                background-image: url(../../img/headerStructure.jpg);
                 background-size: cover;
                 height: 50rem;
                 width: 60rem;
@@ -131,33 +131,32 @@
             justify-content: center;
             &--image {
                 background-size: cover;
-                background-blend-mode: overlay;
                 width: 50rem;
                 height: 60rem;
                 margin: 2rem;
             }
             &--image1 {
-                background-image: linear-gradient(to right, orange, purple), url(../../img/animal-1.jpg);
+                background-image: url(../../img/animal-1.jpg);
             }
 
             &--image2 {
-                background-image: linear-gradient(to right, purple, yellow), url(../../img/animal-2.jpg);
+                background-image: url(../../img/animal-2.jpg);
             }
 
             &--image3 {
-                background-image: linear-gradient(to right, purple, blue), url(../../img/animal-3.jpg);
+                background-image: url(../../img/animal-3.jpg);
             }
 
             &--image4 {
-                background-image: linear-gradient(to right, yellow, pink), url(../../img/animal-4.jpg);
+                background-image: url(../../img/animal-4.jpg);
             }
 
             &--image5 {
-                background-image: linear-gradient(to right, green, red), url(../../img/animal-5.jpg);
+                background-image: url(../../img/animal-5.jpg);
             }
 
             &--image6 {
-                background-image: linear-gradient(to right, red, yellow), url(../../img/animal-6.jpg);
+                background-image: url(../../img/animal-6.jpg);
             }
         }
         .structure__box {
@@ -166,33 +165,32 @@
             justify-content: center;
             &--image {
                 background-size: cover;
-                background-blend-mode: overlay;
                 width: 50rem;
                 height: 60rem;
                 margin: 2rem;
             }
             &--image1 {
-                background-image: linear-gradient(to right, orange, purple), url(../../img/structure-1.jpg);
+                background-image: url(../../img/structure-1.jpg);
             }
 
             &--image2 {
-                background-image: linear-gradient(to right, purple, yellow), url(../../img/structure-2.jpg);
+                background-image: url(../../img/structure-2.jpg);
             }
 
             &--image3 {
-                background-image: linear-gradient(to right, purple, orangered), url(../../img/structure-3.jpg);
+                background-image: url(../../img/structure-3.jpg);
             }
 
             &--image4 {
-                background-image: linear-gradient(to right, yellow, pink), url(../../img/structure-4.jpg);
+                background-image: url(../../img/structure-4.jpg);
             }
 
             &--image5 {
-                background-image: linear-gradient(to right, green, red), url(../../img/structure-5.jpg);
+                background-image: url(../../img/structure-5.jpg);
             }
 
             &--image6 {
-                background-image: linear-gradient(to right, red, yellow), url(../../img/structure-6.jpg);
+                background-image:  url(../../img/structure-6.jpg);
             }
         }
     }
