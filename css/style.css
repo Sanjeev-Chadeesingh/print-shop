@@ -61,16 +61,6 @@ font-family: 'Special Elite', cursive;
   text-align: center;
   font-family: "Special Elite", cursive; }
 
-.navigation__list {
-  display: flex;
-  justify-content: space-evenly; }
-  .navigation__list--link {
-    text-decoration: none;
-    list-style: none;
-    text-transform: lowercase;
-    color: #000;
-    font-size: 3rem; }
-
 .container {
   width: 90%;
   margin: 5rem auto;
@@ -107,13 +97,13 @@ font-family: 'Special Elite', cursive;
           width: 60rem; } }
       @media only screen and (max-width: 37.5em) {
         .content .section-about .about__imageBox--image {
-          height: 50rem;
-          width: 60rem;
+          height: 40rem;
+          width: 50rem;
           margin-bottom: 2rem; } }
       @media only screen and (max-width: 25em) {
         .content .section-about .about__imageBox--image {
-          height: 30rem;
-          width: 40rem;
+          height: 25rem;
+          width: 35rem;
           margin-bottom: 2rem; } }
     .content .section-about .about__copyBox {
       background-color: #f1f2f6;
@@ -122,13 +112,13 @@ font-family: 'Special Elite', cursive;
       width: 50rem; }
       @media only screen and (max-width: 56.25em) {
         .content .section-about .about__copyBox {
-          width: 40rem; } }
-      @media only screen and (max-width: 37.5em) {
-        .content .section-about .about__copyBox {
-          width: 60rem; } }
+          width: 50rem; } }
       @media only screen and (max-width: 37.5em) {
         .content .section-about .about__copyBox {
           width: 40rem; } }
+      @media only screen and (max-width: 25em) {
+        .content .section-about .about__copyBox {
+          width: 35rem; } }
       .content .section-about .about__copyBox--copy {
         padding: 1.75rem;
         font-size: 1.7rem;
@@ -151,7 +141,8 @@ font-family: 'Special Elite', cursive;
       background-image: url(../../img/headerAnimal.jpg);
       background-size: cover;
       height: 50rem;
-      width: 60rem; }
+      width: 60rem;
+      margin-bottom: 2rem; }
       @media only screen and (max-width: 56.25em) {
         .content .section-showcase .showcase__animal--image {
           height: 40rem;
@@ -169,6 +160,7 @@ font-family: 'Special Elite', cursive;
       background-size: cover;
       height: 50rem;
       width: 60rem;
+      margin-bottom: 2rem;
       background-blend-mode: overlay; }
       @media only screen and (max-width: 56.25em) {
         .content .section-showcase .showcase__structure--image {
@@ -239,3 +231,26 @@ font-family: 'Special Elite', cursive;
 
 .navigation {
   background-color: #57606f; }
+  .navigation__list {
+    display: flex;
+    justify-content: space-evenly; }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__list {
+        justify-content: space-around; } }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__list {
+        justify-content: space-around; } }
+    .navigation__list--link {
+      color: black;
+      text-decoration: none;
+      list-style: none; }
+  .navigation__text {
+    color: #000;
+    font-family: "Special Elite", cursive;
+    font-size: 3.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__text {
+        font-size: 2.5rem; } }
+    @media only screen and (max-width: 25em) {
+      .navigation__text {
+        font-size: 2rem; } }
