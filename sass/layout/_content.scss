@@ -14,9 +14,7 @@
         .about__imageBox {
 
             &--image {
-            background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/headerHome-min.jpg);
-            background-size: cover;
-            height: 60rem;
+            height: 50rem;
             width: 70rem;
             @include respond(tab-port) {
                 height: 50rem;
@@ -75,9 +73,7 @@
         .showcase__animal {
 
             &--image {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/headerAnimal-min.jpg);
-                background-size: cover;
-                height: 50rem;
+                height: 45rem;
                 width: 60rem;
                 margin-bottom: 2rem;
                 @include respond(tab-port) {
@@ -101,9 +97,7 @@
         .showcase__structure {
 
             &--image {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/headerStructure-min.jpg);
-                background-size: cover;
-                height: 50rem;
+                height: 45rem;
                 width: 60rem;
                 margin-bottom: 2rem;
                 @include respond(tab-port) {
@@ -134,7 +128,7 @@
             &--image {
                 background-size: cover;
                 width: 50rem;
-                height: 60rem;
+                height: 70rem;
                 margin: 2rem;
             }
             &--image1 {
