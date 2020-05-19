@@ -121,6 +121,7 @@
     }
 
     .section-pieces {
+
         .animal__box {
             display: flex;
             flex-wrap: wrap;
@@ -130,31 +131,18 @@
                 width: 50rem;
                 height: 70rem;
                 margin: 2rem;
-            }
-            &--image1 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/animal-1-min.jpg);
-            }
-
-            &--image2 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/animal-2-min.jpg);
-            }
-
-            &--image3 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/animal-3-min.jpg);
-            }
-
-            &--image4 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/animal-4-min.jpg);
-            }
-
-            &--image5 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/animal-5-min.jpg);
-            }
-
-            &--image6 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/animal-6-min.jpg);
+                @include respond(tab-port) {
+                    height: 40rem;
+                    width: 50rem;
+                }
+              
+                @include respond(xphone) {
+                    height: 25rem;
+                    width: 36rem;
+                }
             }
         }
+
         .structure__box {
             display: flex;
             flex-wrap: wrap;
@@ -162,31 +150,17 @@
             &--image {
                 background-size: cover;
                 width: 50rem;
-                height: 60rem;
+                height: 70rem;
                 margin: 2rem;
-            }
-            &--image1 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/structure-1-min.jpg);
-            }
-
-            &--image2 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/structure-2-min.jpg);
-            }
-
-            &--image3 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/structure-3-min.jpg);
-            }
-
-            &--image4 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/structure-4-min.jpg);
-            }
-
-            &--image5 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)), url(../../img/structure-5-min.jpg);
-            }
-
-            &--image6 {
-                background-image: linear-gradient(rgba($color-black, .1), rgba($color-black, .15)),  url(../../img/structure-6-min.jpg);
+                @include respond(tab-port) {
+                    height: 40rem;
+                    width: 50rem;
+                }
+              
+                @include respond(xphone) {
+                    height: 25rem;
+                    width: 36rem;
+                }
             }
         }
     }

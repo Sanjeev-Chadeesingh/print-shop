@@ -177,18 +177,14 @@ font-family: 'Special Elite', cursive;
       width: 50rem;
       height: 70rem;
       margin: 2rem; }
-    .content .section-pieces .animal__box--image1 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/animal-1-min.jpg); }
-    .content .section-pieces .animal__box--image2 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/animal-2-min.jpg); }
-    .content .section-pieces .animal__box--image3 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/animal-3-min.jpg); }
-    .content .section-pieces .animal__box--image4 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/animal-4-min.jpg); }
-    .content .section-pieces .animal__box--image5 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/animal-5-min.jpg); }
-    .content .section-pieces .animal__box--image6 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/animal-6-min.jpg); }
+      @media only screen and (max-width: 56.25em) {
+        .content .section-pieces .animal__box--image {
+          height: 40rem;
+          width: 50rem; } }
+      @media only screen and (max-width: 25em) {
+        .content .section-pieces .animal__box--image {
+          height: 25rem;
+          width: 36rem; } }
   .content .section-pieces .structure__box {
     display: flex;
     flex-wrap: wrap;
@@ -196,20 +192,16 @@ font-family: 'Special Elite', cursive;
     .content .section-pieces .structure__box--image {
       background-size: cover;
       width: 50rem;
-      height: 60rem;
+      height: 70rem;
       margin: 2rem; }
-    .content .section-pieces .structure__box--image1 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/structure-1-min.jpg); }
-    .content .section-pieces .structure__box--image2 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/structure-2-min.jpg); }
-    .content .section-pieces .structure__box--image3 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/structure-3-min.jpg); }
-    .content .section-pieces .structure__box--image4 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/structure-4-min.jpg); }
-    .content .section-pieces .structure__box--image5 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/structure-5-min.jpg); }
-    .content .section-pieces .structure__box--image6 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15)), url(../../img/structure-6-min.jpg); }
+      @media only screen and (max-width: 56.25em) {
+        .content .section-pieces .structure__box--image {
+          height: 40rem;
+          width: 50rem; } }
+      @media only screen and (max-width: 25em) {
+        .content .section-pieces .structure__box--image {
+          height: 25rem;
+          width: 36rem; } }
 
 .header {
   background-image: linear-gradient(to bottom, #57606f, #2f3542);
