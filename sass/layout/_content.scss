@@ -17,12 +17,13 @@
             height: 50rem;
             width: 70rem;
             @include respond(tab-port) {
-                height: 50rem;
-                width: 60rem;
+                height: 45rem;
+                width: 65rem;
+                margin-bottom: 2rem;
             }
             @include respond(phone) {
-                height: 40rem;
-                width: 50rem;
+                height: 45rem;
+                width: 65rem;
                 margin-bottom: 2rem;
             }
             @include respond(xphone) {
@@ -39,10 +40,10 @@
             box-shadow: $shadow-dark;
             width: 50rem;
             @include respond(tab-port) {
-                width: 50rem;
+                width: 37rem;
             }
             @include respond(phone) {
-                width: 40rem;
+                width: 65rem;
             }
             @include respond(xphone) {
                 width: 35rem;
@@ -123,6 +124,7 @@
     .section-pieces {
 
         .animal__box {
+            margin-top: 2rem;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -130,20 +132,32 @@
                 background-size: cover;
                 width: 50rem;
                 height: 70rem;
-                margin: 2rem;
+                margin-bottom: 2rem;
+                margin-right: 1.5rem;
+                margin-left: 1.5rem;
                 @include respond(tab-port) {
-                    height: 40rem;
+                    height: 70rem;
                     width: 50rem;
+                }
+
+                @include respond(phone) {
+                    height: 48rem;
+                    width: 35rem;
+                    margin-right: 0;
+                    margin-left: 0;
                 }
               
                 @include respond(xphone) {
-                    height: 25rem;
-                    width: 36rem;
+                    height: 48rem;
+                    width: 35rem;
+                    margin-right: 0;
+                    margin-left: 0;
                 }
             }
         }
 
         .structure__box {
+            margin-top: 2rem;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -151,15 +165,26 @@
                 background-size: cover;
                 width: 50rem;
                 height: 70rem;
-                margin: 2rem;
+                margin-bottom: 2rem;
+                margin-right: 1.5rem;
+                margin-left: 1.5rem;
                 @include respond(tab-port) {
-                    height: 40rem;
+                    height: 70rem;
                     width: 50rem;
+                }
+
+                @include respond(phone) {
+                    height: 48rem;
+                    width: 35rem;
+                    margin-right: 0;
+                    margin-left: 0;
                 }
               
                 @include respond(xphone) {
-                    height: 25rem;
-                    width: 36rem;
+                    height: 48rem;
+                    width: 35rem;
+                    margin-right: 0;
+                    margin-left: 0;
                 }
             }
         }
